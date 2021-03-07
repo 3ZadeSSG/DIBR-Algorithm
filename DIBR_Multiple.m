@@ -13,7 +13,7 @@
                is done.
 %}
 
-N = 7;
+N = 5;
 file_depth = 'D_original.png';
 file_texture = 'V_original.png';
 
@@ -82,6 +82,6 @@ for i=1:N
    Rt_virtual(:,4) = -[x_t;y_t;z_t]; % Since P = K[R|t], and P = KR[I|-C], so this calculated 't' for each Rt matrix
    virtual_image = DIBR(image_original,Z_Map,K_original, Rt_original,K_virtual, Rt_virtual); % call DIBR and save the image for i
    
-   file_output = sprintf('%s_%d_%s','N',i,'Image.png');
+   file_output = sprintf('%s_%d_%s','Output Results\Output Task 2 - Generate N Virtual Images\N',i,'Image.png');
    imwrite(virtual_image,file_output);
 end

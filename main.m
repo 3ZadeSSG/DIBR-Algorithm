@@ -58,7 +58,7 @@ image_output = DIBR(image_original,Z_Map,K_original, Rt_original,K_virtual, Rt_v
 
 % If saving output is required then save the image
 if save_output
-    imwrite(image_output,'Output_Image.png');
+    imwrite(image_output,'Output Results\Output Task 1 - Generate Virtual Image\Output_Virtual_Image.png');
 end
 
 %{
