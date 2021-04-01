@@ -3,6 +3,8 @@
 This repo contains a Depth Image Based Rendering (DIBR) algorothm. Given original camera's RGB image and depth image, the program can synthesize virtual image from virtual camera's viewpoint.
 Additionally N number of virtual images can be generated from N viewpoints between original and virtual camera.
 
+<img src="https://github.com/3ZadeSSG/DIBR-Algorithm/blob/main/Output%20Results/Animated_Output.gif" width="550px" >
+
 ## 1. Requirements
 
 Any matlab version compatible with code written in `R2018a`
